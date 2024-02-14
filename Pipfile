@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 fastapi = "0.109.2"
+hypercorn = "0.16.0"
 
 
 [dev-packages]
