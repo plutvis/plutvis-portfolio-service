@@ -6,9 +6,10 @@ name = "pypi"
 [packages]
 fastapi = "0.109.2"
 hypercorn = "0.16.0"
-
-
-[dev-packages]
+python-keycloak = "3.8.2"
+sqlalchemy = { version = "2.0.27", extras = ["asyncio"] }
+asyncpg = "0.29.0"
+alembic = "1.13.1"
 
 [requires]
 python_version = "3.11"

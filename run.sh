@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hypercorn app.main:app --reload
+hypercorn src.main:app --reload

@@ -1,0 +1,12 @@
+
+services:
+  postgres:
+    image: postgres:16.2-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - ~/apps/plutvis_postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=plutvistest
+      - POSTGRES_USER=plutvistest
+      - POSTGRES_DB=plutvistest
